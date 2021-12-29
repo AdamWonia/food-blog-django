@@ -1,0 +1,9 @@
+.idea
+__pycache__
+venv
+media
+db.sqlite3
+600_test.png
+900_test.png
+1200_test.png
+1800_test.png

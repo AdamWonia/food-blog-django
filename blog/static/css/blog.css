@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap');
+
+body {
+    font-family: 'Lobster', cursive;
+    background-color: #ebe6d5;
+}
+
+.img-div {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+a {
+    color: #e82049;
+    font-size: 20px;
+}
+
+.navbar-container1 {
+    background-color: #5e5d59;
+    padding-top: 1%;
+    padding-left: 30px;
+    padding-bottom: 1%;
+    height: 13%;
+    width: 50%;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    color: #ebe6d5;
+    float: left;
+    text-align: left;
+}
+
+.navbar-container2 {
+    background-color: #5e5d59;
+    padding-top: 1%;
+    padding-right: 30px;
+    padding-bottom: 1%;
+    height: 13%;
+    width: 50%;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    color: #ebe6d5;
+    float: right;
+    text-align: center;
+}
+
+.vertical-center {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    float: right;
+    text-align: center;
+}
+
+.upper-container {
+    clear: both;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    text-align: center;
+    background-color: #ebe6d5;
+}
+
+.main-container {
+    text-align: center;
+    background-color: #ebe6d5;
+}
+
+.post-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 20%;
+    background-color: #ebe6d5;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.img-container {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: #ebe6d5;
+    margin-left: 0;
+    border-right: 2px solid black;
+}
+
+.details-container {
+    float: right;
+    height: 25%;
+    width: 70%;
+    border-bottom: 2px solid black;
+    color: #0d24b5;
+}
+
+#post-info {
+    position: relative;
+    top: 125%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+footer {
+    width:100%;
+    padding-top: 15px;
+    background-color: #5e5d59;
+    text-align: center;
+    color: #ebe6d5;
+    font-size: 15px;
+    border: 2px solid #3b3938;
+}
+
+.details-section {
+    width: 60%;
+    overflow: auto;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.details-img {
+  float: left;
+  width: 30%;
+  height: 40%;
+  border: 2px solid #c7b77d;
+}
+
+.recipe {
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-add-post {
+    padding: 25px;
+    height: 85%;
+    background-color: #ebe6d5;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.post-delete {
+    height: 70%;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}

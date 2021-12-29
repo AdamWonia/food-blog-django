@@ -1,0 +1,37 @@
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Food blog</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+
+    <body>
+        <div class="navbar-container1">
+            <a href="/" style="color: #ebe6d5 !important; text-decoration: none;">
+                <h1>Food blog - find new recipes</h1>
+            </a>
+        </div>
+        <div class="navbar-container2">
+            <!-- Show button if user is logged -->
+            {% if user.is_authenticated %}
+                <a href="{% url 'post_new' %}"><button type="button" class="btn btn-primary vertical-center">Add new post</button></a>
+            {% endif %}
+        </div>
+        <div class="upper-container">
+            <h1>Recipes added recently</h1>
+        </div>
+        <div class="main-container">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </body>
+
+    <footer id="footer">
+            <br>
+            <p>Author: Adam Wonia</p>
+            <p>© Copyright 2021</p>
+            <br>
+    </footer>
+</html>
