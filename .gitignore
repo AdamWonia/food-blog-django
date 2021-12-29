@@ -1,7 +1,6 @@
 .idea
 __pycache__
 venv
-media
 db.sqlite3
 600_test.png
 900_test.png
